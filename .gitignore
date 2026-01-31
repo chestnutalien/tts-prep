@@ -399,3 +399,10 @@ FodyWeavers.xsd
 
 # JetBrains Rider
 *.sln.iml
+
+# tts-labeler
+.env
+.venv/
+.venv
+.streamlit/secrets.toml
+recordings

@@ -1,0 +1,20 @@
+[project]
+name = "tts-labeler"
+version = "0.1.1"
+description = "TTS Labeler is a system designed for labeling datasets which are to be used for training or fine-tuning TTS (text-to-speech) models."
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+    "librosa>=0.11.0",
+    "matplotlib>=3.10.6",
+    "openai>=1.109.1",
+    "pandas>=2.3.2",
+    "pydub>=0.25.1",
+    "sounddevice>=0.5.2",
+    "streamlit>=1.49.1",
+    "numpy>=1.26.0",
+    "scipy>=1.11.0",
+    "soundfile>=0.12.1",
+    "numba>=0.58.0",
+    "audioread>=3.0.0",   
+]
